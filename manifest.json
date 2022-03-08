@@ -1,0 +1,15 @@
+{
+  "name": "LaTeX builder",
+  "description": "An extension which allows you to easily write LaTeX expressions and to copy the raw LaTeX code.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["/lib/jquery.js"],
+      "matches": ["*://*/*"]
+    }
+  ]
+}
